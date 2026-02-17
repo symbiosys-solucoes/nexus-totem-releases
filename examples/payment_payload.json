@@ -1,0 +1,36 @@
+{
+  "bills": [
+    {
+      "id": "1001",
+      "amount": 50.00,
+      "description": "Mensalidade Abril",
+      "type": "MOV",
+      "dueDate": "2023-12-10"
+    },
+    {
+      "id": "1002",
+      "amount": 75.50,
+      "description": "Taxa Extra",
+      "type": "CPR",
+      "dueDate": "2023-12-15"
+    }
+  ],
+  "payments": [
+    {
+      "transactionId": "123456",
+      "date": "10/12/2023",
+      "time": "14:30:00",
+      "type": "CREDIT",
+      "status": "APROVADO",
+      "approvedAmount": 125.50,
+      "tefReceipt": "..."
+    }
+  ],
+  "user": {
+    "cpf": "11111111111",
+    "name": "Cliente Teste",
+    "email": "cliente@teste.com"
+  },
+  "totalPaid": 125.50,
+  "terminalId": "TOTEM-01"
+}

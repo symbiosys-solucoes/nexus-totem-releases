@@ -1,0 +1,49 @@
+{
+	"dbConfig": {
+		"server": "10.0.0.4",
+		"database": "dbCronos",
+		"user": "teste",
+		"password": "123456",
+		"port": 1433,
+		"options": {
+			"encrypt": false,
+			"trustServerCertificate": true
+		},
+		"tef": {
+			"terminalId": "SW000004",
+			"provider": "sitef-dll",
+			"reqPath": "C:\\Client\\Req",
+			"respPath": "C:\\Client\\Resp",
+			"ip": "127.0.0.1",
+			"dllPath": "C:\\Sitef_dll\\CliSiTef64I.dll",
+			"storeId": "40760313"
+		},
+		"totemId": "0163a37e-6229-4d4a-9942-b85ed946fe5c",
+		"cnpj": "40.761.538/0001-33",
+		"pb": {
+			"url": "https://nexus-pb.sym.dev.br",
+			"collection": "transactions",
+			"email": "totem@nexus.sym.dev.br",
+			"password": "@nfs32xpt#"
+		},
+		"printerName": "MP-4200 TH",
+		"smtp": {
+			"host": "smtps.uhserver.com",
+			"user": "nfe@armazemribeira.com.br",
+			"pass": "Nfear0804*",
+			"port": 465,
+			"secure": true
+		},
+		"screensaver": {
+			"type": "carousel",
+			"folderPath": "C:\\Users\\lucas\\OneDrive\\Imagens",
+			"timeout": 600,
+			"enabled": false
+		},
+		"companyName": "Armazém Ribeira",
+		"contactPhone": "(84) 99107-5719",
+		"ghToken": "xxxxxx",
+		"useErpPaymentConditions": true,
+		"allowMultiplePayments": false
+	}
+}
